@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 st.title('OpenPIV Streamlit App')
 
 # Upload the images
-image1 = st.file_uploader("Choose an Image 1...", type="png")
-image2 = st.file_uploader("Choose an Image 2...", type="png")
+image1 = st.file_uploader("Choose an Image 1...")
+image2 = st.file_uploader("Choose an Image 2...")
 
 if image1 is not None and image2 is not None:
     # Load images into numpy arrays
