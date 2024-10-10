@@ -1,2 +1,3 @@
 openpiv
 streamlit
+urllib3<2
